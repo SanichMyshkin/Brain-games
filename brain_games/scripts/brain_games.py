@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
 
-from brain_games.cli import welcome_user
+from brain_games.engine import run_game  #импортируем функцию обработки
+from brain_games.game import even        #импортируем функцию проверки на четность
 
 
 def main():
-    print("Welcome to the Brain Games!@")
-    welcome_user()
+    # старт
+    run_game(even)
 
 
 if __name__ == '__main__':
