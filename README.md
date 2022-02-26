@@ -4,5 +4,5 @@
 
 Brain-even:
 
-https://asciinema.org/a/1HO8USrDewHDcH0PpZ9YE0xoV
+<a href="https://asciinema.org/a/1HO8USrDewHDcH0PpZ9YE0xoV" target="_blank"><img src="https://asciinema.org/a/1HO8USrDewHDcH0PpZ9YE0xoV.svg" /></a>
 
