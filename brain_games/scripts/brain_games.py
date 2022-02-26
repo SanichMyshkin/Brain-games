@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
 
-from brain_games.engine import run_game  #импортируем функцию обработки
-from brain_games.game import even        #импортируем функцию проверки на четность
+from brain_games.engine import run_game
+from brain_games.game import even
 
 
 def main():
-    # старт
     run_game(even)
 
 
