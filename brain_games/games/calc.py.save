@@ -1,7 +1,0 @@
-from random import randint
-
-
-CONDITION = 'What is the result of the expression?'
-
-
-def main
