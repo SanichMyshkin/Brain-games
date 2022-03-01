@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-    """This is work of art"""
 
 from brain_games.engine import run_game
 from brain_games.games import gcd
