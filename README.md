@@ -16,5 +16,8 @@ Brain-gcd:
 
 Brain-progression:
 
-
 <a href="https://asciinema.org/a/0c3RBD1DhxbrNp6KE7hCBKPyh" target="_blank"><img src="https://asciinema.org/a/0c3RBD1DhxbrNp6KE7hCBKPyh.svg" /></a>
+
+Brain-prime:
+
+<a href="https://asciinema.org/a/PW904RrU3c7aeC3YTnyvbkskf" target="_blank"><img src="https://asciinema.org/a/PW904RrU3c7aeC3YTnyvbkskf.svg" /></a>
