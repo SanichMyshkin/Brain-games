@@ -7,10 +7,15 @@
 Описание:
 
 ```brain-even``` - Проверка на чётность
+
 ```brain-calc ``` - Калькулятор рандомных чисел
+
 ```brain-gcd``` - Наибольший общий делитель двух чисел
+
 ```brain-progression``` - Арифметическая прогрессия
+
 ```brain-prime``` - Являеться ли чсло простым?
+
 
 # Установка проекта: 
 [![asciicast](https://asciinema.org/a/vhUwnbxk5YRCK3aUVoNK28kJ9.svg)](https://asciinema.org/a/vhUwnbxk5YRCK3aUVoNK28kJ9)
