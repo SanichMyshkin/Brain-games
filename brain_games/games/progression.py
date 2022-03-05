@@ -19,6 +19,6 @@ def question_and_answer():
     progression = get_line_of_progression()
     rand_index = randint(0, 9)
     correct_answer = progression[rand_index]
-    progression[rand_index] = "??"
+    progression[rand_index] = ".."
     qustion = " ".join(map(str, progression))
     return qustion, str(correct_answer)
