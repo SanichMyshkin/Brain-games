@@ -1,22 +1,23 @@
-from random import randint
+import random
+import operator
 
 
 CONDITION = 'What is the result of the expression?'
 
 
 def question_and_answer():
-    num1 = randint(0, 99)
-    num2 = randint(0, 99)
-    symbol = randint(0, 2)
-    if symbol == 0:
-        result = num1 + num2
-        qustion = str(f"{num1} + {num2}")
-        return qustion, str(result)
-    elif symbol == 1:
-        result = num1 - num2
-        qustion = str(f"{num1} - {num2}")
-        return qustion, str(result)
-    else:
-        result = num1 * num2
-        qustion = str(f"{num1} * {num2}")
-        return qustion, str(result)
+    operand1 = random.randint(0, 99)
+    operand2 = random.randint(0, 99)
+    operations = {
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul,
+    }
+
+    operation = random.choice(list(operations.keys()))
+
+    answer = str(operations[operation](operand1, operand2))
+
+    question = str(f"{operand1} {operation} {operand2}")
+
+    return question, answer

@@ -4,7 +4,7 @@ from random import randint
 CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
-def mass():
+def get_line_of_progression():
     start_point = randint(0, 30)
     step_interval = randint(0, 10)
     progres = [start_point, ]
@@ -16,7 +16,7 @@ def mass():
 
 
 def question_and_answer():
-    progression = mass()
+    progression = get_line_of_progression()
     rand_index = randint(0, 9)
     correct_answer = progression[rand_index]
     progression[rand_index] = "??"

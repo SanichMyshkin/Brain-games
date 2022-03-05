@@ -1,15 +1,13 @@
 import prompt
 
-max_question = 3
-
 
 def run_game(game):
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
     print(f"Hello, {user_name}!")
     print(game.CONDITION)
-    count = 1
-    while count <= max_question:
+    game_rounds_count = 3
+    for round_number in range(0, game_rounds_count):
         question, correct_answer = game.question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
@@ -18,7 +16,6 @@ def run_game(game):
                   f"Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {user_name}!")
             break
-        print("Correct, boy!")
-        count += 1
+        print("Correct!")
     else:
         print(f"Congratulations, {user_name}!")
