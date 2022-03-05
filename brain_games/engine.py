@@ -17,9 +17,5 @@ def run_game(game):
                   f"Let's try again, {user_name}!")
             break
         print("Correct!")
-<<<<<<< HEAD
-=======
-        count += 1
->>>>>>> 5b1248e48b48dc555e92e4611dd83c82f034ffbd
     else:
         print(f"Congratulations, {user_name}!")
