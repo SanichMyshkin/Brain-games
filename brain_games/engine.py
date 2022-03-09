@@ -8,7 +8,7 @@ def run_game(game):
     print(game.CONDITION)
     game_rounds_count = 3
     for round_number in range(0, game_rounds_count):
-        question, correct_answer = game.question_and_answer()
+        question, correct_answer = game.get_question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer != correct_answer:
