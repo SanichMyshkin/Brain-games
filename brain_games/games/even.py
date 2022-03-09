@@ -3,7 +3,7 @@ from random import randint
 CONDITION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def question_and_answer():
+def get_question_and_answer():
     num = randint(0, 99)
     qustion = str(num)
     if num % 2 == 0:

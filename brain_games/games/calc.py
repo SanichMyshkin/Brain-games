@@ -5,7 +5,7 @@ import operator
 CONDITION = 'What is the result of the expression?'
 
 
-def question_and_answer():
+def get_question_and_answer():
     operand1 = random.randint(0, 99)
     operand2 = random.randint(0, 99)
     operations = {
