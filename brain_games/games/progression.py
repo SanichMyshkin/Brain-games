@@ -15,7 +15,7 @@ def get_line_of_progression():
     return progres
 
 
-def question_and_answer():
+def get_question_and_answer():
     progression = get_line_of_progression()
     rand_index = randint(0, 9)
     correct_answer = progression[rand_index]
